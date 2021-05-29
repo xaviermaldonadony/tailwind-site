@@ -21,9 +21,5 @@ module.exports = {
 	variants: {
 		extend: {},
 	},
-	plugins: [
-		require('@tailwindcss/typography'),
-		require('tailwindcss'),
-		require('autoprefixer'),
-	],
+	plugins: [require('@tailwindcss/typography')],
 };
