@@ -9,11 +9,17 @@ module.exports = {
 				orange: colors.orange,
 				teal: colors.teal,
 				'light-blue': colors.lightBlue,
+				'blue-gray': colors.blueGray,
+				cyan: colors.cyan,
+				'light-blue': colors.lightBlue,
+			},
+			fontFamily: {
+				nunito: ['Nunito'],
 			},
 		},
 	},
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography')],
 };
